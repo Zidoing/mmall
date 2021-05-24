@@ -1,0 +1,34 @@
+{
+  "name": "mmall",
+  "version": "1.0.0",
+  "description": "# 穷游 移动端 h5",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --open chrome"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Zidoing/mmall.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Zidoing/mmall/issues"
+  },
+  "homepage": "https://github.com/Zidoing/mmall#readme",
+  "devDependencies": {
+    "art-template-loader": "^1.4.3",
+    "css-loader": "^4.2.1",
+    "file-loader": "^6.0.0",
+    "html-webpack-plugin": "^4.3.0",
+    "style-loader": "^1.2.1",
+    "url-loader": "^4.1.0",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "dependencies": {
+    "art-template": "^4.13.2",
+    "swiper": "^6.1.1"
+  }
+}
