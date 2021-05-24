@@ -3,7 +3,7 @@
     <form class="searchbox-form">
         <input
                 type="text"
-                class="search-box-input"
+                class="searchbox-input"
                 name="words"
                 autocomplete="off"
                 placeholder="{{placeholder?placeholder:'搜索目的地/折扣/关键字'}}">
