@@ -22,3 +22,7 @@
 .nav-layout {
     margin-bottom: 10px;
 }
+
+.header-layout .searchbox {
+    width: 89%;
+}

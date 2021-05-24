@@ -10,20 +10,174 @@
 <div id="index-page" class="index-layout">
     <!--    头部-->
     <header class="header-layout">
-        头部
+        {{ include "./components/header/header.art" }}
     </header>
-    <!--    幻灯片-->
-    <div id="index-slider" class="slider-layout">
-        幻灯片
-    </div>
-    <!--    导航-->
-    <nav id="index-nav" class="nav-layout">
-        导航
-    </nav>
-    <!--    精选折扣-->
-    <div id="index-product" class="product-layout">
-        精选折扣
-    </div>
+    <!--    &lt;!&ndash;    幻灯片&ndash;&gt;-->
+
+        <div id="index-slider" class="slider-layout">
+            幻灯片
+        </div>
+
+        <div id="index-slider" class="slider-layout">
+            幻灯片
+        </div>
+
+        <div id="index-slider" class="slider-layout">
+            幻灯片
+        </div>
+
+        <div id="index-slider" class="slider-layout">
+            幻灯片
+        </div>
+
+        <div id="index-slider" class="slider-layout">
+            幻灯片
+        </div>
+
+        <div id="index-slider" class="slider-layout">
+            幻灯片
+        </div>
+
+        <div id="index-slider" class="slider-layout">
+            幻灯片
+        </div>
+
+        <div id="index-slider" class="slider-layout">
+            幻灯片
+        </div>
+
+        <div id="index-slider" class="slider-layout">
+            幻灯片
+        </div>
+
+        <div id="index-slider" class="slider-layout">
+            幻灯片
+        </div>
+
+        <div id="index-slider" class="slider-layout">
+            幻灯片
+        </div>
+
+        <div id="index-slider" class="slider-layout">
+            幻灯片
+        </div>
+
+        <div id="index-slider" class="slider-layout">
+            幻灯片
+        </div>
+
+        <div id="index-slider" class="slider-layout">
+            幻灯片
+        </div>
+
+        <div id="index-slider" class="slider-layout">
+            幻灯片
+        </div>
+
+        <div id="index-slider" class="slider-layout">
+            幻灯片
+        </div>
+
+        <div id="index-slider" class="slider-layout">
+            幻灯片
+        </div>
+
+        <div id="index-slider" class="slider-layout">
+            幻灯片
+        </div>
+
+        <div id="index-slider" class="slider-layout">
+            幻灯片
+        </div>
+
+        <div id="index-slider" class="slider-layout">
+            幻灯片
+        </div>
+
+        <div id="index-slider" class="slider-layout">
+            幻灯片
+        </div>
+
+        <div id="index-slider" class="slider-layout">
+            幻灯片
+        </div>
+
+        <div id="index-slider" class="slider-layout">
+            幻灯片
+        </div>
+
+        <div id="index-slider" class="slider-layout">
+            幻灯片
+        </div>
+
+        <div id="index-slider" class="slider-layout">
+            幻灯片
+        </div>
+
+        <div id="index-slider" class="slider-layout">
+            幻灯片
+        </div>
+
+        <div id="index-slider" class="slider-layout">
+            幻灯片
+        </div>
+
+        <div id="index-slider" class="slider-layout">
+            幻灯片
+        </div>
+
+        <div id="index-slider" class="slider-layout">
+            幻灯片
+        </div>
+
+        <div id="index-slider" class="slider-layout">
+            幻灯片
+        </div>
+
+        <div id="index-slider" class="slider-layout">
+            幻灯片
+        </div>
+
+        <div id="index-slider" class="slider-layout">
+            幻灯片
+        </div>
+
+        <div id="index-slider" class="slider-layout">
+            幻灯片
+        </div>
+
+        <div id="index-slider" class="slider-layout">
+            幻灯片
+        </div>
+
+        <div id="index-slider" class="slider-layout">
+            幻灯片
+        </div>
+
+        <div id="index-slider" class="slider-layout">
+            幻灯片
+        </div>
+
+        <div id="index-slider" class="slider-layout">
+            幻灯片
+        </div>
+
+        <div id="index-slider" class="slider-layout">
+            幻灯片
+        </div>
+
+        <div id="index-slider" class="slider-layout">
+            幻灯片
+        </div>
+
+    <!--    &lt;!&ndash;    导航&ndash;&gt;-->
+    <!--    <nav id="index-nav" class="nav-layout">-->
+    <!--        导航-->
+    <!--    </nav>-->
+    <!--    &lt;!&ndash;    精选折扣&ndash;&gt;-->
+    <!--    <div id="index-product" class="product-layout">-->
+    <!--        精选折扣-->
+    <!--    </div>-->
 
     <!--    标签栏-->
     <div class="tabbar-layout">
