@@ -1,0 +1,55 @@
+<div class="product">
+    <h2 class="product-title">精选折扣</h2>
+    <ul class="product-list" id="product-list">
+
+        <li class="product-item">
+            <a href="./details.html?id=1">
+                <p class="product-pic">
+                    <img src="./images/product_1.jpg" alt="" class="product-img">
+                </p>
+                <p class="product-name">
+                    [甩尾狂欢]北京/天津直飞日本东京/大阪/冲绳/札幌/福冈4-7天往返含税机票(可待定签证)
+                </p>
+                <p class="product-price">37000元起</p>
+            </a>
+        </li>
+
+
+        <li class="product-item">
+            <a href="./details.html?id=1">
+                <p class="product-pic">
+                    <img src="./images/product_2.jpg" alt="" class="product-img">
+                </p>
+                <p class="product-name">
+                    [甩尾狂欢]北京/天津直飞日本东京/大阪/冲绳/札幌/福冈4-7天往返含税机票(可待定签证)
+                </p>
+                <p class="product-price">37000元起</p>
+            </a>
+        </li>
+
+        <li class="product-item">
+            <a href="./details.html?id=1">
+                <p class="product-pic">
+                    <img src="./images/product_1.jpg" alt="" class="product-img">
+                </p>
+                <p class="product-name">
+                    [甩尾狂欢]北京/天津直飞日本东京/大阪/冲绳/札幌/福冈4-7天往返含税机票(可待定签证)
+                </p>
+                <p class="product-price">37000元起</p>
+            </a>
+        </li>
+
+
+        <li class="product-item">
+            <a href="./details.html?id=1">
+                <p class="product-pic">
+                    <img src="./images/product_2.jpg" alt="" class="product-img">
+                </p>
+                <p class="product-name">
+                    [甩尾狂欢]北京/天津直飞日本东京/大阪/冲绳/札幌/福冈4-7天往返含税机票(可待定签证)
+                </p>
+                <p class="product-price">37000元起</p>
+            </a>
+        </li>
+    </ul>
+</div>

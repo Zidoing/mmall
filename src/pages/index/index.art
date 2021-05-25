@@ -22,9 +22,9 @@
         {{include '../../components/loading/loading.art'}}
     </nav>
     <!--    &lt;!&ndash;    精选折扣&ndash;&gt;-->
-    <!--    <div id="index-product" class="product-layout">-->
-    <!--        精选折扣-->
-    <!--    </div>-->
+    <div id="index-product" class="product-layout">
+        {{ include "./components/product/product.art" }}
+    </div>
 
     <!--    标签栏-->
     <div class="tabbar-layout">

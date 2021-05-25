@@ -8,4 +8,5 @@ import "./index.css";
 import './components/header'
 import './components/slider'
 import './components/nav'
+import './components/product'
 import 'components/loading'
