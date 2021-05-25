@@ -14,15 +14,13 @@
         {{ include "./components/header/header.art" }}
     </header>
     <!--    &lt;!&ndash;    幻灯片&ndash;&gt;-->
-
     <div id="index-slider" class="slider-layout">
-        {{include './components/slider/slider.art'}}
+        {{include '../../components/loading/loading.art'}}
     </div>
-
     <!--    &lt;!&ndash;    导航&ndash;&gt;-->
-    <!--    <nav id="index-nav" class="nav-layout">-->
-    <!--        导航-->
-    <!--    </nav>-->
+    <nav id="index-nav" class="nav-layout">
+        {{ include "./components/nav/nav.art" }}
+    </nav>
     <!--    &lt;!&ndash;    精选折扣&ndash;&gt;-->
     <!--    <div id="index-product" class="product-layout">-->
     <!--        精选折扣-->

@@ -7,3 +7,4 @@ import "./index.css";
 // 组件
 import './components/header'
 import './components/slider'
+import 'components/loading'

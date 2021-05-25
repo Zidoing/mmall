@@ -61,15 +61,3 @@ class Header {
 }
 
 export default Header;
-
-// scrollContainer.addEventListener("scroll", function () {
-//     if (state !== CHANGED_STATE && scrollContainer.scrollTop > 0) {
-//         state = CHANGED_STATE
-//         console.log("changed")
-//         headerEl.classList.add(CHANGED_CLASS_NAME)
-//     } else if (state !== INIT_STATE && scrollContainer.scrollTop <= 0) {
-//         console.log("reset")
-//         state = INIT_STATE;
-//         headerEl.classList.remove(CHANGED_CLASS_NAME);
-//     }
-// }, false);

@@ -26,3 +26,7 @@
 .header-layout .searchbox {
     width: 89%;
 }
+
+.slider-layout .loading {
+    padding: 60px 0;
+}

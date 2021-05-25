@@ -1,24 +1,29 @@
 <!-- https://www.swiper.com.cn/usage/index.html -->
 <div class="swiper-container">
-  <div class="swiper-wrapper">
-    <div class="swiper-slide">
-      <a href="javascript:;">
-        <img src="./images/slider_1.jpg" alt="" class="swiper-img" />
-      </a>
-    </div>
-    <div class="swiper-slide">
-      <a href="javascript:;">
-        <img src="./images/slider_2.jpg" alt="" class="swiper-img" />
-      </a>
-    </div>
-  </div>
-  <!-- 如果需要分页器 -->
-  <div class="swiper-pagination"></div>
+    <div class="swiper-wrapper">
 
-  <!-- 如果需要导航按钮 -->
-  <!-- <div class="swiper-button-prev"></div>
-  <div class="swiper-button-next"></div> -->
+        {{ each imgs }}
+        <div class="swiper-slide">
+            <a href="javascript:;">
+                <img src="{{ $value.url }}" alt="" class="swiper-img"/>
+            </a>
+        </div>
+        {{ /each }}
 
-  <!-- 如果需要滚动条 -->
-  <!-- <div class="swiper-scrollbar"></div> -->
+
+    </div>
+    <!-- 如果需要分页器 -->
+    {{ if pagination && pagination.el }}
+    <div class="swiper-pagination"></div>
+    {{ /if }}
+
+    <!-- 如果需要导航按钮 -->
+    {{ if navigation && navigation.prevEl && navigation.nextEl }}
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+    {{ /if }}
+    <!-- 如果需要滚动条 -->
+    {{ if scrollbar && scrollbar.el }}
+    <div class="swiper-scrollbar"></div>
+    {{ /if }}
 </div>
