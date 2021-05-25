@@ -19,7 +19,7 @@
     </div>
     <!--    &lt;!&ndash;    导航&ndash;&gt;-->
     <nav id="index-nav" class="nav-layout">
-        {{ include "./components/nav/nav.art" }}
+        {{include '../../components/loading/loading.art'}}
     </nav>
     <!--    &lt;!&ndash;    精选折扣&ndash;&gt;-->
     <!--    <div id="index-product" class="product-layout">-->

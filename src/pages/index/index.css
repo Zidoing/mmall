@@ -27,6 +27,7 @@
     width: 89%;
 }
 
+.nav-layout .loading,
 .slider-layout .loading {
     padding: 60px 0;
 }
