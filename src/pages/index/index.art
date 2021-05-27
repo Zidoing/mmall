@@ -28,7 +28,7 @@
 
     <!--    标签栏-->
     <div class="tabbar-layout">
-        标签栏
+        <% include('../../components/tabbar/tabbar.art', {active:'index'}) %>
     </div>
 
     <!--    反回顶部-->
