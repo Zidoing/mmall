@@ -5,10 +5,10 @@
     </a>
     <a href="./destination.html" class="tabbar-item {{ active === 'destination' ? 'tabbar-item-active' : '' }}">
         <i class="iconfont icon-dest"></i>
-        <span>首页</span>
+        <span>目的地</span>
     </a>
     <a href="./personal.html" class="tabbar-item {{ active === 'personal' ? 'tabbar-item-active' : '' }}">
         <i class="iconfont icon-personal"></i>
-        <span>首页</span>
+        <span>个人</span>
     </a>
 </div>
