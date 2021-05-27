@@ -33,7 +33,7 @@
 
     <!--    反回顶部-->
     <div class="backtop-layout">
-        返回顶部
+        {{include '../../components/backtop/backtop.art'}}
     </div>
 </div>
 </body>

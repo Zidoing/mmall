@@ -12,7 +12,6 @@
 
 .backtop-layout {
     position: fixed;
-    background-color: red;
     right: 10px;
     bottom: 60px;
     z-index: 1100;
