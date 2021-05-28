@@ -4,5 +4,5 @@
     {{ include '../tab/tab.art' }}
 </div>
 <div id="destination-content" class="content-layout">
-    {{ include '../content/content.art' }}
+    {{ include '../../../../components/loading/loading' }}
 </div>
