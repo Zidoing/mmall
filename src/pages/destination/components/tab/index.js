@@ -18,8 +18,14 @@ class Tab {
 
 
     to(index) {
+        if (this.dataPromise && this.dataPromise.xhr) {
+            this.dataPromise.xhr.abort();
+        }
         this.setActiveItem(index);
-        return getData(`${URL}/${this.itemEls[index].dataset.id}`)
+        this.dataPromise = getData(`${URL}/${this.itemEls[index].dataset.id}`)
+
+
+        return this.dataPromise
     }
 }
 
